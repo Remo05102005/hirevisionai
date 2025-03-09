@@ -1,0 +1,11 @@
+streamlit
+PyPDF2
+pandas
+scikit-learn
+matplotlib
+wordcloud
+numpy
+docx
+python-docx
+email
+smtplib
