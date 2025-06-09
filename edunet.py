@@ -16,6 +16,11 @@ import docx
 import io
 import zipfile
 
+st.markdown(
+    '<meta name="google-site-verification" content="Tg1j0KCe7DmFC15mUlV0N3BxjuCba7gHUeVmMHDg-yA" />',
+    unsafe_allow_html=True
+)
+
 def extract_text_from_pdf(file):
     try:
         pdf = PdfReader(file)
