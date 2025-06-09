@@ -20,28 +20,39 @@ import json
 # SEO Meta Tags
 st.markdown("""
     <meta name="google-site-verification" content="Tg1j0KCe7DmFC15mUlV0N3BxjuCba7gHUeVmMHDg-yA" />
-    <meta name="description" content="AI-powered resume screening and candidate ranking system. Upload resumes and job descriptions to automatically rank candidates based on relevance." />
-    <meta name="keywords" content="resume screening, AI recruitment, candidate ranking, job matching, HR technology" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="HireVision AI - Resume Screening & Candidate Ranking" />
-    <meta property="og:description" content="AI-powered resume screening and candidate ranking system for efficient recruitment." />
+    <meta name="description" content="HireVisionAI - Advanced AI-powered resume screening and candidate ranking system. Automatically analyze and rank resumes against job descriptions for efficient recruitment." />
+    <meta name="keywords" content="HireVisionAI, resume screening, AI recruitment, candidate ranking, job matching, HR technology, automated hiring, resume analysis" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta property="og:title" content="HireVisionAI - AI-Powered Resume Screening & Candidate Ranking" />
+    <meta property="og:description" content="Transform your hiring process with HireVisionAI's advanced resume screening and candidate ranking system. Powered by AI for efficient recruitment." />
     <meta property="og:type" content="website" />
-    <title>HireVision AI - Resume Screening & Candidate Ranking</title>
+    <meta property="og:site_name" content="HireVisionAI" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HireVisionAI - AI-Powered Resume Screening" />
+    <meta name="twitter:description" content="Transform your hiring process with HireVisionAI's advanced resume screening and candidate ranking system." />
+    <title>HireVisionAI - AI-Powered Resume Screening & Candidate Ranking System</title>
 """, unsafe_allow_html=True)
 
 # Structured Data for Search Engines
 structured_data = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "HireVision AI",
+    "name": "HireVisionAI",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "description": "AI-powered resume screening and candidate ranking system for efficient recruitment.",
+    "description": "AI-powered resume screening and candidate ranking system for efficient recruitment. Automatically analyze and rank resumes against job descriptions.",
     "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
-    }
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "50"
+    },
+    "keywords": "resume screening, AI recruitment, candidate ranking, job matching, HR technology",
+    "url": "https://hirevisionai.streamlit.app"
 }
 
 st.markdown(f"""

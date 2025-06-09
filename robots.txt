@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hirevisionai.streamlit.app/sitemap.xml 
